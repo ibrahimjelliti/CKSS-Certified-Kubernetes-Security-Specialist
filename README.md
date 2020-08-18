@@ -1,1 +1,1 @@
-# Certified-Kubernetes-Security-Specialist-
+# Certified-Kubernetes-Security-Specialist
