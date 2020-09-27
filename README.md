@@ -1,5 +1,5 @@
 # Certified Kubernetes Security Specialist - CKSS
-
+This repository is a collection of resources to preparation for Cloud Native Computing Foundation's (CNCF) Certified Kubernetes Security Specialist (CKSS) exam.
 ## Coming in November
 Earlier this year CNCF announced an upcoming new Certified Kubernetes Security Specialist (CKS) Certification Exam, This new certification is for those who **have passed the CKA** exam and want third party validation for their working knowledge of container security.
 
