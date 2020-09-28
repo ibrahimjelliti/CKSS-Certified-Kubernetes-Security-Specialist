@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="360" src="kubernetes-security-specialist-logo.png">
+</p>
+
 # Certified Kubernetes Security Specialist - CKSS
 This repository is a collection of resources to prepare for the Certified Kubernetes Security Specialist (CKSS) exam.
 > The given references and links below are just assumptions and ideas around the [CKSS curriculum](https://github.com/cncf/curriculum/blob/master/CKS_Curriculum_%20v1.19%20Coming%20Soon%20November%202020.pdf).
