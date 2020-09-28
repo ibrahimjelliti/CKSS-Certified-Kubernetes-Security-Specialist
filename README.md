@@ -3,8 +3,6 @@
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat">
-  <img src="http://hits.dwyl.com/ijelliti/CKSS-Certified-Kubernetes-Security-Specialist.svg">
-
   <img src="https://img.shields.io/badge/status-preview-brightgreen?style=flat">
   <img src="https://img.shields.io/github/issues-raw/ijelliti/CKSS-Certified-Kubernetes-Security-Specialist?style=flat">
   
