@@ -1,6 +1,16 @@
 <p align="center">
   <img width="360" src="kubernetes-security-specialist-logo.png">
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat">
+  <img src="https://img.shields.io/badge/status-preview-brightgreen?style=flat">
+  <img src="https://img.shields.io/github/issues-raw/ijelliti/CKSS-Certified-Kubernetes-Security-Specialist?style=flat">
+  
+  <img src="https://img.shields.io/github/license/ijelliti/CKSS-Certified-Kubernetes-Security-Specialist?style=flat">
+  <img src="https://img.shields.io/github/stars/ijelliti/CKSS-Certified-Kubernetes-Security-Specialist?style=social">
+  <img src="https://img.shields.io/github/forks/ijelliti/CKSS-Certified-Kubernetes-Security-Specialist?style=social">
+</p>
+
 
 # Certified Kubernetes Security Specialist - CKSS
 This repository is a collection of resources to prepare for the Certified Kubernetes Security Specialist (CKSS) exam.
