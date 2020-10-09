@@ -45,6 +45,10 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 * [Securing a Cluster](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/)
 * [Declare Network Policy](https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/)
 * [Enforcing Network Policies in Kubernetes](https://kubernetes.io/blog/2017/10/enforcing-network-policies-in-kubernetes/)
+* [Get started with Kubernetes network policy](https://docs.projectcalico.org/security/kubernetes-network-policy)
+* [kubernetes-network-policy-recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes)
+* [Kubernetes Network Policies Best Practices](https://blog.alcide.io/kubernetes-network-policies-best-practices)
+* [Exploring Network Policies in Kubernetes](https://banzaicloud.com/blog/network-policy/)
 </details>
 
 <details><summary>Use CIS benchmark to review the security configuration of Kubernetes components (etcd, kubelet, kubedns, kubeapi)</summary>
@@ -155,6 +159,8 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 * [Open Policy Agent Introduction](https://www.youtube.com/watch?v=Yup1FUc2Qn0)
 * [OPA Gatekeeper: Policy and Governance for Kubernetes](https://kubernetes.io/blog/2019/08/06/opa-gatekeeper-policy-and-governance-for-kubernetes/)
 * [Enforce policies on Kubernetes objects with OPA](https://www.openpolicyagent.org/docs/v0.12.2/kubernetes-admission-control/)
+* [Pod Security Policy](https://blog.alcide.io/pod-security-policy)
+* [katacoda lab around Secrets](https://www.katacoda.com/courses/kubernetes/managing-secrets)
 </details>
 
 <details><summary>Manage kubernetes secrets</summary>
@@ -191,11 +197,13 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 * [Use the smallest base image possible](https://cloud.google.com/solutions/best-practices-for-building-containers#build-the-smallest-image-possible)
 * [7 best practices for building containers](https://cloud.google.com/blog/products/gcp/7-best-practices-for-building-containers)
 * [distroless containers](https://github.com/GoogleContainerTools/distroless)
+* [Docker multi-stage builds](https://docs.docker.com/develop/develop-images/multistage-build/)
 </details>
 
 <details><summary>Secure your supply chain: whitelist allowed image registries, sign and validate images</summary>
 
 * [Using Admission Controllers](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/)
+* [Dynamic Admission Control](https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/)
 * [A Guide to Kubernetes Admission Controllers](https://kubernetes.io/blog/2019/03/21/a-guide-to-kubernetes-admission-controllers/)
 * [Content trust in Docker](https://docs.docker.com/engine/security/trust/content_trust/)
 * [How to reject docker registries in Kubernetes?](https://stackoverflow.com/questions/54463125/how-to-reject-docker-registries-in-kubernetes)
@@ -215,6 +223,9 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 
 * [Scan your Docker images for vulnerabilities](https://medium.com/better-programming/scan-your-docker-images-for-vulnerabilities-81d37ae32cb3)
 * [Scan your Docker containers for vulnerabilities with Clair](https://github.com/leahnp/clair-klar-kubernetes-demo)
+* [OpenSCAP](https://github.com/OpenSCAP/openscap)
+* [CLAIR](https://github.com/quay/clair)
+* [Vuls](https://github.com/future-architect/vuls)
 </details>
 
 ## Monitoring, Logging and Runtime Security (20%)
@@ -257,6 +268,7 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 * [Kubernetes Audit](https://kubernetes.io/docs/tasks/debug-application-cluster/audit/)
 * [How to monitor Kubernetes audit logs?](https://www.datadoghq.com/blog/monitor-kubernetes-audit-logs/)
 * [Kubernetes Audit logging](https://docs.sysdig.com/en/kubernetes-audit-logging.html)
+* [Kubernetes Audit: Making Log Auditing a Viable Practice Again](https://blog.alcide.io/kubernetes-audit-making-log-auditing-a-viable-practice-again)
 </details>
 
 # Keep Updating
