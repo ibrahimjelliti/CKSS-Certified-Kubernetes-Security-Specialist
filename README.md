@@ -271,6 +271,14 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 * [Kubernetes Audit: Making Log Auditing a Viable Practice Again](https://blog.alcide.io/kubernetes-audit-making-log-auditing-a-viable-practice-again)
 </details>
 
+# Related Kubernetes security resources
+* [Cloud Native Security Tutorial](https://tutorial.kubernetes-security.info/)
+* [Killer Shell CKS Simulator](https://killer.sh/cks)
+* [Sysdig Kubernetes Security Guide](https://sysdig.com/resources/ebooks/kubernetes-security-guide/)
+* [Kubernetes Security Best Practices - Ian Lewis, Google](https://youtu.be/wqsUfvRyYpw)
+* [Kubernetes security concepts and demos](https://youtu.be/VjlvS-qiz_U)
+* [Tutorial: Getting Started With Cloud Native Security - Liz Rice, Aqua Security & Michael Hausenblas](https://youtu.be/MisS3wSds40)
+
 # Keep Updating
 * LIVING DOCUMENT - I WILL UPDATE IT FREQUENTLY WHEN I HAVE NEW INFORMATIONS
 * PRs are always welcome so star, fork and contribute
