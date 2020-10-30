@@ -160,7 +160,6 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 * [OPA Gatekeeper: Policy and Governance for Kubernetes](https://kubernetes.io/blog/2019/08/06/opa-gatekeeper-policy-and-governance-for-kubernetes/)
 * [Enforce policies on Kubernetes objects with OPA](https://www.openpolicyagent.org/docs/v0.12.2/kubernetes-admission-control/)
 * [Pod Security Policy](https://blog.alcide.io/pod-security-policy)
-* [katacoda lab around Secrets](https://www.katacoda.com/courses/kubernetes/managing-secrets)
 </details>
 
 <details><summary>Manage kubernetes secrets</summary>
@@ -168,6 +167,7 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 * [Kubernetes Secrets](https://kubernetes.io/docs/concepts/configuration/secret/)
 * [Managing Secrets in Kubernetes](https://www.weave.works/blog/managing-secrets-in-kubernetes)
 * [Secrets Store CSI driver](https://github.com/kubernetes-sigs/secrets-store-csi-driver)
+* [katacoda lab around Secrets](https://www.katacoda.com/courses/kubernetes/managing-secrets)
 </details>
 
 <details><summary>Use container runtime sandboxes in multi-tenant environments (e.g. gvisor, kata containers)</summary>
