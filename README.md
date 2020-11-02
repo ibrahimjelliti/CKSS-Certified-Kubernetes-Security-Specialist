@@ -285,7 +285,7 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
   * please make a pull request if you would like to add or update 
 # Stargazers over Time
 
-[![Stargazers over time](https://starchart.cc/ibrahimjelliti/CKSS-Certified-Kubernetes-Security-Specialist.svg)](https://starchart.cc/ijelliti/CKSS-Certified-Kubernetes-Security-Specialist)
+[![Stargazers over time](https://starchart.cc/ibrahimjelliti/CKSS-Certified-Kubernetes-Security-Specialist.svg)](https://starchart.cc/ibrahimjelliti/CKSS-Certified-Kubernetes-Security-Specialist)
 
 Ibrahim Jelliti © 2020
 
