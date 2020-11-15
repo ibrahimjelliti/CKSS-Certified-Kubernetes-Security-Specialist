@@ -221,8 +221,8 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 #### Allowed Ressources
 * [Enforce tenant isolation (Limit Ranges, Quotas, PSPs) with Policies](https://kubernetes.io/docs/concepts/policy/)
 * [Affinity and anti-affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity)
-* [What is gVisor?](https://gvisor.dev/docs/)
 #### 3rd Party Ressources
+* [What is gVisor?](https://gvisor.dev/docs/)
 * [Cluster multi-tenancy](https://cloud.google.com/kubernetes-engine/docs/concepts/multitenancy-overview)
 * [Use gVisor to run Kubernetes pods](https://gvisor.dev/docs/user_guide/quick_start/kubernetes/)
 * [Implementing secure Containers using Google’s gVisor](https://thenewstack.io/how-to-implement-secure-containers-using-googles-gvisor/)
