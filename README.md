@@ -123,6 +123,7 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 * [Using RBAC Authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 * [Authorization modes for Kubernetes API server](https://kubernetes.io/docs/reference/access-authn-authz/authorization/#authorization-modules)
 #### 3rd Party Ressources
+* [Site for Kubernetes RBAC](https://rbac.dev/)
 * [Understand Role-Based Access Control in Kubernetes](https://www.youtube.com/watch?v=G3R24JSlGjY)
 * [RBAC Study Guide](https://github.com/David-VTUK/CKA-StudyGuide/blob/master/RevisionTopics/Part-5-Security.md)
 </details>
@@ -219,6 +220,8 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 <details><summary>Use container runtime sandboxes in multi-tenant environments (e.g. gvisor, kata containers)</summary>
 
 #### Allowed Ressources
+* [container runtime](https://kubernetes.io/docs/concepts/containers/runtime-class/)
+* [container runtime sandboxes examples](https://github.com/kubernetes/enhancements/blob/master/keps/sig-node/585-runtime-class/README.md#examples)
 * [Enforce tenant isolation (Limit Ranges, Quotas, PSPs) with Policies](https://kubernetes.io/docs/concepts/policy/)
 * [Affinity and anti-affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity)
 #### 3rd Party Ressources
@@ -253,6 +256,7 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 * [distroless containers](https://github.com/GoogleContainerTools/distroless)
 * [Docker multi-stage builds](https://docs.docker.com/develop/develop-images/multistage-build/)
 * [Tips to Reduce Docker Image Sizes](https://hackernoon.com/tips-to-reduce-docker-image-sizes-876095da3b34)
+* [3 simple tricks for smaller Docker images](https://learnk8s.io/blog/smaller-docker-images)
 </details>
 
 <details><summary>Secure your supply chain: whitelist allowed image registries, sign and validate images</summary>
@@ -270,6 +274,9 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 </details>
 
 <details><summary>Use static analysis of user workloads (e.g. kubernetes resources, docker files)</summary>
+
+#### Allowed Ressources
+* [11 Ways (Not) to Get Hacked: statically-analyse-yaml](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/#7-statically-analyse-yaml)
 
 #### 3rd Party Ressources
 * [Static analysis with Clair](https://github.com/quay/clair)
@@ -316,6 +323,9 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 * [Anatomy of a Kubernetes attack – How untrusted Docker images fails us](https://www.optiv.com/explore-optiv-insights/source-zero/anatomy-kubernetes-attack-how-untrusted-docker-images-fail-us)
 * [Investigating Kubernetes Attack Scenarios in Threat Stack (part 1)](https://www.threatstack.com/blog/kubernetes-attack-scenarios-part-1)
 * [The seven phases of a cyber attack](https://www.dnvgl.com/article/the-seven-phases-of-a-cyber-attack-118270)
+* [Threat matrix for Kubernetes](https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/)
+* [MITRE ATT&CK framework for container runtime security with Falco](https://sysdig.com/blog/mitre-attck-framework-for-container-runtime-security-with-sysdig-falco/)
+* [Mitigating Kubernetes attacks](https://www.youtube.com/watch?v=HWv8ZKLCawM)
 </details>
 
 <details><summary>Perform deep analytical investigation and identification of bad actors within environment</summary>
