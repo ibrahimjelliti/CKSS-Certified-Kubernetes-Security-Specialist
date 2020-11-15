@@ -80,8 +80,8 @@ A first good starting point for securing Kubernetes is the Task section [**Secur
 #### Allowed Ressources
 * [Restricting cloud metadata API access](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/#restricting-cloud-metadata-api-access)
 * [Kubelet authentication/authorization](https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet-authentication-authorization/)
-* [Kubelet API](https://www.deepnetwork.com/blog/kubernetes/2020/01/13/kubelet-api.html)
 #### 3rd Party Ressources
+* [Kubelet API](https://www.deepnetwork.com/blog/kubernetes/2020/01/13/kubelet-api.html)
 * [Setting up secure endpoints in Kubernetes](https://blog.cloud66.com/setting-up-secure-endpoints-in-kubernetes/)
 * [GKE Protecting cluster metadata](https://cloud.google.com/kubernetes-engine/docs/how-to/protecting-cluster-metadata)
 * [Retrieving EC2 instance metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html)
