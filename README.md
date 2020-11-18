@@ -15,13 +15,11 @@
 # Certified Kubernetes Security Specialist - CKSS
 This repository is a collection of resources to prepare for the Certified Kubernetes Security Specialist (CKSS) exam.
 > The given references and links below are just assumptions and ideas around the [CKSS curriculum](https://github.com/cncf/curriculum/blob/master/CKS_Curriculum_%20v1.19%20Coming%20Soon%20November%202020.pdf).
-## Coming in November
-Earlier this year CNCF announced an upcoming new Certified Kubernetes Security Specialist (CKS) Certification Exam, This new certification is for those who **have passed the CKA** exam and want third party validation for their working knowledge of container security.
 
-From the [announcement](https://www.cncf.io/blog/2020/07/15/certified-kubernetes-security-specialist-cks-coming-in-november/) of the CNCF the CKS is described as:
-> CKS is similar in format to CKA and will consist of a performance-based certification exam – testing competence across best practices for securing container-based applications and Kubernetes platforms during build, deployment, and runtime.
+## CKS Overview
+The Kubernetes Security Specialist (CKS) certification ensure that the holder has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime.
 
-> The certification is expected to be generally available before the KubeCon + CloudNativeCon North America Virtual event taking place November 17-20.
+The certification is generally available to take from [here](https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/) as anounced during the KubeCon NA20
 
 ## CKS Outline
 The CKS test will be online, proctored and performance-based, and candidates have 2 hours to complete the exam tasks.
@@ -35,8 +33,10 @@ From the CKS Exam Curriculum repository, The exam will test domains and competen
 6. **Monitoring, Logging, and Runtime Security (20%)**: Analyse and detect threads.
 
 # CKS Exam Preparation
-In order to take the CKS exam, you must have **Valid CKA certification** to demonstrate you possess sufficient Kubernetes expertise.
+
+In order to take the CKS exam, you must have **Valid CKA certification** prior to attempting the CKS exam to demonstrate you possess sufficient Kubernetes expertise.
 A first good starting point for securing Kubernetes is the Task section [**Securing a Cluster**](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/) of the official K8s documentation.
+The exam will be based on **Kubernetes v1.19 documentation** as of November general availability announcement.
 
 ## Cluster Setup (10%)
 <details><summary>Use Network security policies to restrict cluster level access</summary>
