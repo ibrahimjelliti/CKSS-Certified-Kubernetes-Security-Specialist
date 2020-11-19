@@ -370,9 +370,7 @@ The exam will be based on **Kubernetes v1.19 documentation** as of November gene
 * LIVING DOCUMENT - I WILL UPDATE IT FREQUENTLY WHEN I HAVE NEW INFORMATIONS
 * PRs are always welcome so star, fork and contribute
   * please make a pull request if you would like to add or update 
-# Stargazers over Time
 
-[![Stargazers over time](https://starchart.cc/ibrahimjelliti/CKSS-Certified-Kubernetes-Security-Specialist.svg)](https://starchart.cc/ibrahimjelliti/CKSS-Certified-Kubernetes-Security-Specialist)
 
 Ibrahim Jelliti © 2020
 
