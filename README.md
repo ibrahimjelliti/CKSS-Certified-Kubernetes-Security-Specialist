@@ -14,7 +14,7 @@
 
 # Certified Kubernetes Security Specialist - CKSS
 This repository is a collection of resources to prepare for the Certified Kubernetes Security Specialist (CKSS) exam.
-> The given references and links below are just assumptions and ideas around the [CKSS curriculum](https://github.com/cncf/curriculum/blob/master/CKS_Curriculum_%20v1.19%20Coming%20Soon%20November%202020.pdf).
+> The given references and links below are just assumptions and ideas around the [CKSS curriculum](https://github.com/cncf/curriculum/blob/master/CKS_Curriculum_%20v1.19.pdf).
 
 ## CKS Overview
 The Kubernetes Security Specialist (CKS) certification ensure that the holder has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime.
@@ -22,7 +22,7 @@ The Kubernetes Security Specialist (CKS) certification ensure that the holder ha
 The certification is generally available to take from [here](https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/) as anounced during the KubeCon NA20
 
 ## CKS Outline
-The CKS test will be online, proctored and performance-based, and candidates have 2 hours to complete the exam tasks.
+The CKS test will be online, proctored and performance-based with 15-20 hands-on performance based tasks, and candidates have 2 hours to complete the exam tasks.
 
 From the CKS Exam Curriculum repository, The exam will test domains and competencies including:
 1. **Cluster Setup (10%)**: Best practice configuration to control the environment's access, rights and platform conformity.
@@ -357,6 +357,7 @@ The exam will be based on **Kubernetes v1.19 documentation** as of November gene
 </details>
 
 # Related Kubernetes security resources
+* [Kubernetes Security Essentials (LFS260)](https://training.linuxfoundation.org/training/kubernetes-security-essentials-lfs260/) (The course will be available January 8, 2021)
 * [Cloud Native Security Tutorial](https://tutorial.kubernetes-security.info/)
 * [Killer Shell CKS Simulator](https://killer.sh/cks)
 * [Sysdig Kubernetes Security Guide](https://sysdig.com/resources/ebooks/kubernetes-security-guide/)
@@ -365,6 +366,7 @@ The exam will be based on **Kubernetes v1.19 documentation** as of November gene
 * [Tutorial: Getting Started With Cloud Native Security - Liz Rice, Aqua Security & Michael Hausenblas](https://youtu.be/MisS3wSds40)
 * [11 Ways (Not) to Get Hacked](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/)
 * [Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat)
+* [Kubernetes CTF on vagrant environment](https://github.com/NodyHub/k8s-ctf-rocks)
 
 # Keep Updating
 * LIVING DOCUMENT - I WILL UPDATE IT FREQUENTLY WHEN I HAVE NEW INFORMATIONS
