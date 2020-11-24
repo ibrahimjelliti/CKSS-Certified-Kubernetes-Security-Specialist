@@ -144,6 +144,12 @@ The exam will be based on **Kubernetes v1.19 documentation** as of November gene
 * [Understand Role Based Access Control in Kubernetes](https://www.youtube.com/watch?v=G3R24JSlGjY)
 </details>
 
+<details><summary>Update Cluster frequently</summary>
+  
+#### Allowed Ressources
+* [Update Kubernetes frequently](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/)
+</details>
+
 ## System Hardening (15%)
 <details><summary>Minimize host OS footprint (reduce attack surface)</summary>
 
