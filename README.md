@@ -37,6 +37,25 @@ From the CKS Exam Curriculum repository, The exam will test domains and competen
 In order to take the CKS exam, you must have **Valid CKA certification** prior to attempting the CKS exam to demonstrate you possess sufficient Kubernetes expertise.
 A first good starting point for securing Kubernetes is the Task section [**Securing a Cluster**](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/) of the official K8s documentation.
 The exam will be based on **Kubernetes v1.19 documentation** as of November general availability announcement.
+# Allowed resources to access during my CKS exam:
+According to the LF docs, during the CKS exam the candidates may:
+- review the Exam content instructions that are presented in the command line terminal.
+- review Documents installed by the distribution (i.e. /usr/share and its subdirectories)
+- use their Chrome or Chromium browser to open **one additional tab** in order to access 
+  - **Kubernetes Documentation:**
+    - https://kubernetes.io/docs/ and their subdomains
+    - https://github.com/kubernetes/ and their subdomains
+    - https://kubernetes.io/blog/ and their subdomains
+    
+    This includes all available language translations of these pages (e.g. https://kubernetes.io/zh/docs/)
+  - **Tools**:
+    - Trivy documentation https://github.com/aquasecurity/trivy
+    - Sysdig documentation https://docs.sysdig.com/
+    - Falco documentation https://falco.org/docs/
+  - **App Armor:**
+    - Documentation [https://gitlab.com/apparmor/apparmor/-/wikis/Documentation](https://gitlab.com/apparmor/apparmor/-/wikis/Documentation)
+    
+  The allowed sites above may contain links that point to external sites. It is the responsibility of the candidate not to click any links to navigate to a domain that is not allowed
 
 ## Cluster Setup (10%)
 <details><summary>Use Network security policies to restrict cluster level access</summary>
@@ -204,9 +223,10 @@ The exam will be based on **Kubernetes v1.19 documentation** as of November gene
 * [Pod Security Policies](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
 * [Configure a Security Context for a Pod or Container](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
 * [OPA Gatekeeper: Policy and Governance for Kubernetes](https://kubernetes.io/blog/2019/08/06/opa-gatekeeper-policy-and-governance-for-kubernetes/)
+* [Kubernetes security context, security policy, and network policy – Kubernetes security guide (part 2)](https://sysdig.com/blog/kubernetes-security-psp-network-policy/)
+
 #### 3rd Party Ressources
 * [Open Policy Agent Introduction](https://www.youtube.com/watch?v=Yup1FUc2Qn0)
-* [Kubernetes security context, security policy, and network policy – Kubernetes security guide (part 2)](https://sysdig.com/blog/kubernetes-security-psp-network-policy/)
 * [Enforce policies on Kubernetes objects with OPA](https://www.openpolicyagent.org/docs/v0.12.2/kubernetes-admission-control/)
 * [Pod Security Policy](https://blog.alcide.io/pod-security-policy)
 </details>
@@ -309,8 +329,8 @@ The exam will be based on **Kubernetes v1.19 documentation** as of November gene
 #### Allowed Ressources
 * [Restrict a Container's Syscalls with Seccomp](https://kubernetes.io/docs/tutorials/clusters/seccomp/)
 * [Auditing with Falco (Obsoledted)](https://v1-16.docs.kubernetes.io/docs/tasks/debug-application-cluster/falco/)
-#### 3rd Party Ressources
 * [How to detect a Kubernetes vulnerability using Falco](https://sysdig.com/blog/how-to-detect-kubernetes-vulnerability-cve-2019-11246-using-falco/)
+#### 3rd Party Ressources
 * [Kubernetes Security monitoring at scale](https://medium.com/@SkyscannerEng/kubernetes-security-monitoring-at-scale-with-sysdig-falco-a60cfdb0f67a)
 </details>
 
@@ -356,9 +376,10 @@ The exam will be based on **Kubernetes v1.19 documentation** as of November gene
 
 #### Allowed Ressources
 * [Kubernetes Audit](https://kubernetes.io/docs/tasks/debug-application-cluster/audit/)
+* [Kubernetes Audit logging](https://docs.sysdig.com/en/kubernetes-audit-logging.html)
+
 #### 3rd Party Ressources
 * [How to monitor Kubernetes audit logs?](https://www.datadoghq.com/blog/monitor-kubernetes-audit-logs/)
-* [Kubernetes Audit logging](https://docs.sysdig.com/en/kubernetes-audit-logging.html)
 * [Kubernetes Audit: Making Log Auditing a Viable Practice Again](https://blog.alcide.io/kubernetes-audit-making-log-auditing-a-viable-practice-again)
 </details>
 
@@ -373,6 +394,9 @@ The exam will be based on **Kubernetes v1.19 documentation** as of November gene
 * [11 Ways (Not) to Get Hacked](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/)
 * [Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat)
 * [Kubernetes CTF on vagrant environment](https://github.com/NodyHub/k8s-ctf-rocks)
+* [Udemy Kubernetes CKS 2020 Complete Course and killer.sh Simulator](https://www.udemy.com/course/certified-kubernetes-security-specialist/)
+### White Papers
+* [CNCF cloud-native security white paper Nov 2020](https://github.com/cncf/sig-security/blob/master/security-whitepaper/CNCF_cloud-native-security-whitepaper-Nov2020.pdf)
 
 # Keep Updating
 * LIVING DOCUMENT - I WILL UPDATE IT FREQUENTLY WHEN I HAVE NEW INFORMATIONS
