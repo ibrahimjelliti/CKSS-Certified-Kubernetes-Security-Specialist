@@ -305,6 +305,7 @@ According to the LF docs, during the CKS exam the candidates may:
 * [11 Ways (Not) to Get Hacked: statically-analyse-yaml](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/#7-statically-analyse-yaml)
 
 #### 3rd Party Ressources
+* [Trivy](https://github.com/aquasecurity/trivy)
 * [Static analysis with Clair](https://github.com/quay/clair)
 * [Static analysis with Kube-score](https://kube-score.com/)
 * [kubehunter](https://github.com/aquasecurity/kube-hunter)
@@ -315,11 +316,7 @@ According to the LF docs, during the CKS exam the candidates may:
 <details><summary>Scan images for known vulnerabilities</summary>
   
 #### 3rd Party Ressources
-* [CLAIR](https://github.com/quay/clair)
-* [OpenSCAP](https://github.com/OpenSCAP/openscap)
-* [Vuls](https://github.com/future-architect/vuls)
-* [Scan your Docker images for vulnerabilities](https://medium.com/better-programming/scan-your-docker-images-for-vulnerabilities-81d37ae32cb3)
-* [Scan your Docker containers for vulnerabilities with Clair](https://github.com/leahnp/clair-klar-kubernetes-demo)
+* [Trivy](https://github.com/aquasecurity/trivy)
 </details>
 
 ## Monitoring, Logging and Runtime Security (20%)
