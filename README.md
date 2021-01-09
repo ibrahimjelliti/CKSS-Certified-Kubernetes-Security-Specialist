@@ -381,7 +381,7 @@ According to the LF docs, during the CKS exam the candidates may:
 </details>
 
 # Related Kubernetes security resources
-* [Kubernetes Security Essentials (LFS260)](https://training.linuxfoundation.org/training/kubernetes-security-essentials-lfs260/) (The course will be available January 8, 2021)
+* [Kubernetes Security Essentials (LFS260)](https://training.linuxfoundation.org/training/kubernetes-security-essentials-lfs260/)
 * [Cloud Native Security Tutorial](https://tutorial.kubernetes-security.info/)
 * [Killer Shell CKS Simulator](https://killer.sh/cks)
 * [Sysdig Kubernetes Security Guide](https://sysdig.com/resources/ebooks/kubernetes-security-guide/)
