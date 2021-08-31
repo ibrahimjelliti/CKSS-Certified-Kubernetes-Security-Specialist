@@ -392,6 +392,7 @@ According to the LF docs, during the CKS exam the candidates may:
 * [Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat)
 * [Kubernetes CTF on vagrant environment](https://github.com/NodyHub/k8s-ctf-rocks)
 * [Udemy Kubernetes CKS 2020 Complete Course and killer.sh Simulator](https://www.udemy.com/course/certified-kubernetes-security-specialist/)
+* [NSA/CISA Kubernetes Hardening Guidance 08/2021](https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/1/CTR_KUBERNETES%20HARDENING%20GUIDANCE.PDF)
 ### White Papers
 * [CNCF cloud-native security white paper Nov 2020](https://github.com/cncf/sig-security/blob/master/security-whitepaper/CNCF_cloud-native-security-whitepaper-Nov2020.pdf)
 
