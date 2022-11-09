@@ -241,6 +241,7 @@ According to the LF docs, during the CKS exam the candidates may:
 * [katacoda lab around Secrets](https://www.katacoda.com/courses/kubernetes/managing-secrets)
 * [Managing Secrets in Kubernetes](https://www.weave.works/blog/managing-secrets-in-kubernetes)
 * [Secrets Store CSI driver](https://github.com/kubernetes-sigs/secrets-store-csi-driver)
+* [How to Manage Secrets in Kubernetes](https://spacelift.io/blog/kubernetes-secrets)  
 </details>
 
 <details><summary>Use container runtime sandboxes in multi-tenant environments (e.g. gvisor, kata containers)</summary>
